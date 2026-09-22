@@ -3,47 +3,48 @@
 
 ## 🎯 Objetivo
 
-Desenvolver um jogo clássico de adivinhação de palavras em Python, praticando o uso de strings, listas, condicionais, loops e entrada de dados do usuário.
+Praticar conceitos fundamentais de Python, como manipulação de strings, uso de listas, condicionais e loops, ao desenvolver o clássico jogo da forca.
 
 ## 📝 Tarefas
 
-### 🛠️ Criação da palavra secreta
+### 🛠️ Selecionar e ocultar a palavra
 
 #### Descrição
-Crie a lógica inicial do jogo, escolhendo uma palavra aleatória de uma lista predefinida e preparando o estado do jogo para a interação com o usuário.
+Escolha uma palavra aleatória de uma lista predefinida e prepare uma versão oculta para que o jogador possa tentar adivinhar as letras sem ver a resposta completa.
 
 #### Requisitos
 O programa concluído deve:
 
 - Definir uma lista com palavras possíveis para o jogo
-- Escolher uma palavra aleatória da lista
-- Inicializar a palavra oculta com underscores para cada letra
-- Mostrar ao jogador o estado atual da palavra e as tentativas restantes
+- Selecionar uma palavra aleatória da lista
+- Representar a palavra escondida com underscores ou espaços vazios
+- Exibir o progresso atual da palavra para o jogador
+- Mostrar a quantidade de tentativas restantes no início da partida
 
-### 🛠️ Entrada e validação de letras
+### 🛠️ Receber palpites e validar letras
 
 #### Descrição
-Implemente a interação com o usuário para receber palpites e validar se a letra informada é válida e se já foi usada antes.
+Crie a interação com o usuário para receber letras, verificar se elas fazem parte da palavra e atualizar o estado do jogo conforme as respostas.
 
 #### Requisitos
 O programa concluído deve:
 
-- Solicitar ao usuário uma letra
-- Verificar se a letra pertence à palavra secreta
-- Atualizar a palavra revelada quando a letra for correta
-- Evitar que o mesmo palpite seja contado mais de uma vez
-- Informar ao jogador quando a letra estiver errada
+- Solicitar ao jogador uma letra por vez
+- Verificar se a letra informada está presente na palavra secreta
+- Atualizar a palavra oculta quando a letra for correta
+- Informar ao jogador quando a letra for incorreta
+- Evitar que a mesma letra seja contabilizada mais de uma vez
 
-### 🛠️ Controle do jogo e finalização
+### 🛠️ Controlar tentativas e encerrar o jogo
 
 #### Descrição
-Finalize a lógica do jogo, controlando o número de tentativas e exibindo mensagens de vitória ou derrota ao final da partida.
+Finalize a lógica do jogo, controlando as tentativas restantes e exibindo mensagens claras de vitória ou derrota ao final da partida.
 
 #### Requisitos
 O programa concluído deve:
 
-- Registrar a quantidade de tentativas restantes
-- Diminuir as tentativas quando a letra for incorreta
+- Diminuir as tentativas quando a letra for errada
 - Encerrar o jogo quando a palavra for completamente revelada
 - Encerrar o jogo quando o jogador esgotar todas as tentativas
-- Exibir uma mensagem clara de vitória ou derrota
+- Exibir uma mensagem de vitória quando o jogador acertar a palavra
+- Exibir uma mensagem de derrota quando o jogador perder
