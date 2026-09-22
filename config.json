@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "sqlite-crud",
+      "title": "SQLite CRUD for Task Manager",
+      "description": "Create and manage a database of tasks using Python and SQLite",
+      "path": "assignments/sqlite-crud",
+      "dueDate": "2026-09-29",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
